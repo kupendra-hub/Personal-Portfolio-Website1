@@ -28,3 +28,8 @@ The website uses modern design principles, including colorful gradient backgroun
 This project provides practical experience in web development concepts such as page structure, navigation menus, styling techniques, responsive design, and user interaction. It also helps in understanding how a personal brand can be presented effectively through a web platform.
 
 In conclusion, the Personal Portfolio Website is a useful and effective web development project that demonstrates front-end development skills while providing a professional online presence. It serves as a digital portfolio where educational qualifications, technical skills, projects, and contact information can be presented in a clear, organized, and attractive manner. This project can be further enhanced by integrating backend technologies, databases, and advanced features in the future.
+
+
+#OUTPUT
+
+<img width="1912" height="912" alt="Image" src="https://github.com/user-attachments/assets/9c7ae321-ab5a-4875-9c7c-0adc6b20ab34" />
