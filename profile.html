@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kupendra Jane Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(to right,#e3f2fd,#f3e5f5);
+}
+
+/* Navigation */
+
+nav{
+position:sticky;
+top:0;
+background:#1565c0;
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* Sections */
+
+section{
+padding:60px 20px;
+min-height:100vh;
+}
+
+/* Home */
+
+#home{
+text-align:center;
+}
+
+.profile{
+width:220px;
+height:220px;
+border-radius:50%;
+border:6px solid white;
+box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.name{
+font-size:42px;
+color:#1565c0;
+margin-top:20px;
+}
+
+.role{
+font-size:24px;
+color:#7b1fa2;
+font-weight:bold;
+}
+
+.card{
+width:85%;
+margin:30px auto;
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+/* About */
+
+.main-title{
+text-align:center;
+color:#1565c0;
+margin-bottom:30px;
+font-size:40px;
+}
+
+.about-card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+border-left:8px solid #64b5f6;
+width:85%;
+margin:auto;
+}
+
+.edu-card{
+width:85%;
+margin:20px auto;
+padding:20px;
+border-radius:20px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.btech{
+background:#e8f5e9;
+border-left:8px solid #4caf50;
+}
+
+.puc{
+background:#fff8e1;
+border-left:8px solid #ffb300;
+}
+
+.sslc{
+background:#fce4ec;
+border-left:8px solid #e91e63;
+}
+
+/* Skills */
+
+.skill-box{
+width:85%;
+margin:25px auto;
+padding:20px;
+border-radius:20px;
+color:white;
+box-shadow:0px 8px 20px rgba(0,0,0,0.3);
+}
+
+.languages{
+background:linear-gradient(45deg,#ff512f,#dd2476);
+}
+
+.database{
+background:linear-gradient(45deg,#11998e,#38ef7d);
+}
+
+.tools{
+background:linear-gradient(45deg,#396afc,#2948ff);
+}
+
+.cs{
+background:linear-gradient(45deg,#f7971e,#ffd200);
+color:black;
+}
+
+.skill-box ul{
+list-style:none;
+padding:0;
+}
+
+.skill-box li{
+background:rgba(255,255,255,0.25);
+padding:10px;
+margin:10px;
+border-radius:10px;
+}
+
+/* Projects */
+
+.project-card{
+width:85%;
+margin:25px auto;
+padding:25px;
+border-radius:20px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.project1{
+background:#e8f5e9;
+border-left:8px solid #4caf50;
+}
+
+.project2{
+background:#fff8e1;
+border-left:8px solid #ffb300;
+}
+
+.tech{
+display:inline-block;
+padding:8px 15px;
+margin:5px;
+background:white;
+border-radius:20px;
+}
+
+/* Contact */
+
+.quick-contact{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.box{
+background:white;
+width:220px;
+padding:15px;
+border-radius:15px;
+text-align:center;
+box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+}
+
+.contact-card,.form-card{
+width:85%;
+margin:25px auto;
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:10px;
+border:1px solid #ccc;
+}
+
+button{
+padding:12px 25px;
+background:#2196f3;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1565c0;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+nav a{
+display:block;
+margin:10px;
+}
+
+.profile{
+width:170px;
+height:170px;
+}
+
+.name{
+font-size:30px;
+}
+
+}
+
+</style>
+
+<script>
+function sendMessage(){
+alert("✅ Message Sent Successfully!");
+}
+</script>
+
+</head>
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+
+<img src="C:\Users\Kupendra\Pictures\WhatsApp Image 2026-06-06 at 10.01.23 PM.jpeg" class="profile">
+
+<h1 class="name">Kupendra Jane</h1>
+
+<p class="role">Computer Science Engineering Student</p>
+
+<div class="card">
+
+<h2>Welcome To My Portfolio</h2>
+
+<p>
+Hello! I am Kupendra Jane pursuing B.Tech in Computer Science and Engineering at Presidency University Bengaluru.
+Passionate about Web Development, Software Development and Problem Solving.
+</p>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h1 class="main-title">About Me</h1>
+
+<div class="about-card">
+
+<p>
+I am a Computer Science student interested in Web Development and Software Development.
+I enjoy building projects and learning new technologies.
+</p>
+
+</div>
+
+<div class="edu-card btech">
+<h3>B.Tech CSE</h3>
+<p>Presidency University (2023-2027)</p>
+<p>CGPA : 7.13</p>
+</div>
+
+<div class="edu-card puc">
+<h3>12th Standard</h3>
+<p>69%</p>
+</div>
+
+<div class="edu-card sslc">
+<h3>10th Standard</h3>
+<p>95%</p>
+</div>
+
+</section>
+
+<section id="skills">
+
+<h1 class="main-title">Technical Skills</h1>
+
+<div class="skill-box languages">
+<h2>Languages</h2>
+<ul>
+<li>C</li>
+<li>Python</li>
+<li>Java</li>
+<li>SQL</li>
+</ul>
+</div>
+
+<div class="skill-box database">
+<h2>Databases</h2>
+<ul>
+<li>MySQL</li>
+<li>MongoDB</li>
+</ul>
+</div>
+
+<div class="skill-box tools">
+<h2>Tools</h2>
+<ul>
+<li>GitHub</li>
+<li>VS Code</li>
+</ul>
+</div>
+
+<div class="skill-box cs">
+<h2>CS Fundamentals</h2>
+<ul>
+<li>DSA</li>
+<li>OOP</li>
+<li>DBMS</li>
+<li>Operating Systems</li>
+<li>Computer Networks</li>
+</ul>
+</div>
+
+</section>
+
+<section id="projects">
+
+<h1 class="main-title">Projects</h1>
+
+<div class="project-card project1">
+
+<h2>Student Marketplace Web App</h2>
+
+<p>
+Campus buy and sell platform using React.js, Node.js and MongoDB.
+</p>
+
+<span class="tech">React.js</span>
+<span class="tech">Node.js</span>
+<span class="tech">MongoDB</span>
+
+</div>
+
+<div class="project-card project2">
+
+<h2>Expense Tracker with Analytics</h2>
+
+<p>
+Expense management application using Flask, MySQL and Chart.js.
+</p>
+
+<span class="tech">Flask</span>
+<span class="tech">MySQL</span>
+<span class="tech">Chart.js</span>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h1 class="main-title">Contact Me</h1>
+
+<div class="quick-contact">
+
+<div class="box">
+<h3>📱 Phone</h3>
+<p>+91-84314-66345</p>
+</div>
+
+<div class="box">
+<h3>📧 Email</h3>
+<p>kupendrajane44@gmail.com</p>
+</div>
+
+<div class="box">
+<h3>📍 Location</h3>
+<p>Bangalore</p>
+</div>
+
+</div>
+
+<div class="form-card">
+
+<h2>Send Message</h2>
+
+<input type="text" placeholder="Enter Name">
+
+<input type="email" placeholder="Enter Email">
+
+<textarea rows="5" placeholder="Enter Message"></textarea>
+
+<button onclick="sendMessage()">Send Message</button>
+
+</div>
+
+</section>
+
+</body>
+</html>

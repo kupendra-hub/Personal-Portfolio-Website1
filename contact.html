@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(to right,#e0f7fa,#f3e5f5);
+}
+
+.main-title{
+    text-align:center;
+    color:#1565c0;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+/* Contact Info Card */
+
+.contact-card{
+
+    width:85%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+
+    border-left:8px solid #2196f3;
+
+}
+
+.contact-card h2{
+    color:#1976d2;
+}
+
+.contact-card p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Form Card */
+
+.form-card{
+
+    width:85%;
+
+    margin:30px auto;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+
+    border-left:8px solid #9c27b0;
+
+}
+
+.form-card h2{
+    color:#7b1fa2;
+}
+
+/* Inputs */
+
+input,
+textarea{
+
+    width:95%;
+
+    padding:12px;
+
+    margin-top:10px;
+
+    margin-bottom:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border:2px solid #2196f3;
+
+}
+
+/* Button */
+
+button{
+
+    background:#2196f3;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    font-size:18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+button:hover{
+
+    background:#1565c0;
+
+    transform:scale(1.05);
+
+}
+
+/* Quick Contact Boxes */
+
+.quick-contact{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:30px;
+
+}
+
+.box{
+
+    background:white;
+
+    width:220px;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+
+    transition:0.3s;
+
+}
+
+.box:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.box h3{
+    margin:10px 0;
+}
+
+</style>
+
+<script>
+
+function sendMessage(){
+
+alert("✅ Message Sent Successfully!");
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1 class="main-title">
+📞 Contact Me
+</h1>
+
+<div class="quick-contact">
+
+<div class="box">
+<h3>📱 Phone</h3>
+<p>+91-84314-66345</p>
+</div>
+
+<div class="box">
+<h3>📧 Email</h3>
+<p>kupendrajane44@gmail.com</p>
+</div>
+
+<div class="box">
+<h3>📍 Location</h3>
+<p>Bangalore</p>
+</div>
+
+</div>
+
+<div class="contact-card">
+
+<h2>Personal Information</h2>
+
+<p><b>Name:</b> Kupendra Jane</p>
+
+<p><b>Qualification:</b> B.Tech - Computer Science & Engineering</p>
+
+<p><b>University:</b> Presidency University, Bengaluru</p>
+
+</div>
+
+<div class="form-card">
+
+<h2>Send Me a Message</h2>
+
+<input type="text"
+placeholder="Enter Your Name">
+
+<br>
+
+<input type="email"
+placeholder="Enter Your Email">
+
+<br>
+
+<textarea rows="5"
+placeholder="Enter Your Message"></textarea>
+
+<br>
+
+<button onclick="sendMessage()">
+Send Message
+</button>
+
+</div>
+
+</body>
+</html>
